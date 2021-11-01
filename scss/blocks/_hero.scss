@@ -1,0 +1,249 @@
+.vega__span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+
+}
+
+.vega__span-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+    margin-bottom: 16px;
+}
+
+.vega__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #151515;
+    width: 360px;
+}
+
+.grid__list {
+    width: 340px;
+    align-items: flex-start;
+}
+
+.grid__btn {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+    width: 101px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    background: transparent;
+    border: transparent;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url(/img/Layer.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.list__btn {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+    width: 101px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    background: transparent;
+    border: transparent;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url(/img/ic-layout-sections.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.product__number {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+    width: 110px;
+
+}
+
+.number__span {
+    @include tag
+}
+
+.table__block {
+    margin-bottom: 70px;
+}
+
+.block {
+    width: 569px;
+    height: 400px;
+    background-image: url(/img/Rectangle-26.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    padding: 24px;
+    position: relative;
+}
+
+.block__two {
+    width: 569px;
+    height: 400px;
+    background-image: url(/img/Rectangle-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    padding: 24px;
+    position: relative;
+}
+
+.block__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 90px;
+    width: 325px;
+}
+
+
+.author__name {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    height: 32px;
+    position: absolute;
+    bottom: 30px;
+
+    &::before {
+        content: '';
+        display: block;
+        background-image: url(/img/Small.png);
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+.table>:not(:first-child) {
+    border: none;
+}
+
+.header__bottom {
+    margin-bottom: 35px;
+}
+
+.left__nav-item--active {
+    @include left__nav-title
+}
+
+.left__nav-link {
+    @include left__nav
+}
+
+.left__nav-link-two {
+    @include left__nav-text
+}
+
+.left__nav-list {
+    margin-bottom: 20px;
+}
+
+.left__nav-item--active {
+    margin-bottom: 16px;
+}
+
+.left__nav-item {
+    margin-bottom: 12px;
+}
+
+.left__bottom-title {
+    @include left__nav-title
+}
+
+.left__bottom-text {
+    width: 255px;
+    @include left__nav-text-bottom
+}
+
+.form {
+    width: 325px;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 12px 16px
+}
+
+.form__input {
+    background: none;
+    border: none;
+}
+
+.form__btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    background: none;
+    border: none;
+}
+.menu__block{
+    width: 270px;
+    margin-bottom: 32px;
+}
+.img__block{
+    margin-bottom: 25px;
+}
+.menu_title{
+    @include left__nav-title
+}
+.author__name-two{
+    @include author__name
+}
+.products__menu{
+    width: 870px;
+}
+.menu{
+    width: 587px;
+}
